@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+body{
+  background-color: aliceblue;
+  margin: 0;
+}
+.menu{
+  height:10%;
+  width: 100%;
+  display: flex;
+}
+.logo{
+  height: 100%;
+  width: 20%;
+}
+.share{
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-items: center;
+}
+.inp{
+  width: 100%;
+  border: #333;
+  justify-content: center;
+  background-color: #ceb4b4;
+  margin-top: 50px;
+}
+.food-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding: 24px;
+  }
+  
+  .food-card {
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .food-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .food-card .content {
+    padding: 16px;
+  }
+  
+  .food-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .food-card p {
+    color: #e60073;
+    font-weight: 500;
+    margin-top: 8px;
+  }
+  
